@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +125,9 @@
       <workItem from="1695847894052" duration="2149000" />
       <workItem from="1695851150097" duration="403000" />
       <workItem from="1695854936053" duration="244000" />
+      <workItem from="1695857382262" duration="79000" />
+      <workItem from="1695857469343" duration="4000" />
+      <workItem from="1695857496282" duration="12000" />
     </task>
     <servers />
   </component>
