@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jwt-demo" />
         <module name="jwt-demo-TP" />
-        <module name="EncuentraloFacil" />
       </profile>
     </annotationProcessing>
   </component>
