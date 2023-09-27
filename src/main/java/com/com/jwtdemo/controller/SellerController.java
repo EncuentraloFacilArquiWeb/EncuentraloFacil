@@ -14,9 +14,9 @@ import java.util.List;
 @RestController
 @RequestMapping
 public class SellerController {
-    @Autowired
+    //@Autowired
     private final AuthService authService;
-    @Autowired
+    //@Autowired
     private final SellerService sellerService;
 
 
@@ -47,7 +47,7 @@ public class SellerController {
         return new ResponseEntity<>(sellerService.addSeller(seller), HttpStatus.CREATED);
     }
 
-    @GetMapping("api/seller")//PUEDEN SER LA MISMA RUTA PORQUE UNO ES POST Y EL OTRO ES GET
+    @GetMapping("/auth/api/seller")//PUEDEN SER LA MISMA RUTA PORQUE UNO ES POST Y EL OTRO ES GET
     public ResponseEntity<List<Seller>> lista () {
         return new ResponseEntity<>(sellerService.lista(), HttpStatus.OK);
     }
