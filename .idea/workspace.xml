@@ -19,9 +19,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,7 +26,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -47,18 +43,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CICLO 8/Arquitectura de Aplicaciones Web/Repaso PARCIAL-TP/jwt-demo-TP",
+    "last_opened_file_path": "D:/CICLO 8/Arquitectura de Aplicaciones Web/EJERCICIOS PROFE/SEGURIDAD-JWT-PROFE/auth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "06ebfe79b0819b280de25bccb5944bef",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.JwtDemoApplication (2)">
+  <component name="RunManager" selected="Spring Boot.JwtDemoApplication (1)">
     <configuration name="JwtDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="jwt-demo-TP" />
+      <module name="EncuentraloFacil" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.com.jwtdemo.JwtDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,8 +99,8 @@
       <workItem from="1695711497689" duration="6784000" />
       <workItem from="1695761657757" duration="1932000" />
       <workItem from="1695765284206" duration="6545000" />
-      <workItem from="1695772287249" duration="328000" />
-      <workItem from="1695773777872" duration="15000" />
+      <workItem from="1695773856972" duration="3822000" />
+      <workItem from="1695788346284" duration="856000" />
     </task>
     <servers />
   </component>
