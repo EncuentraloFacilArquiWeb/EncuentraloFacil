@@ -16,9 +16,7 @@ public class Consumer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-
-    // Relación uno a uno con User
-    //@OneToOne(mappedBy = "seller")
+    
     @OneToOne (fetch = FetchType.LAZY)
     @JsonIgnoreProperties( {"hibernateLazyInitializar", "handler"})
     private User user;
