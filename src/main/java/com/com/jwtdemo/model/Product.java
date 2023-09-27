@@ -21,8 +21,8 @@ public class Product {
     private String brand;
     private Date expiration_date;
 
-    @OneToMany (fetch = FetchType.LAZY)
+    @ManyToOne (fetch = FetchType.LAZY)
     @JsonIgnoreProperties( {"hibernateLazyInitializar", "handler"})
-    private List<Seller> sellers;
+    private Seller seller;
 
 }
