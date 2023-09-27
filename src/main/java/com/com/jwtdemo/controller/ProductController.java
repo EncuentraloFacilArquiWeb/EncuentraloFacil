@@ -21,7 +21,7 @@ public class ProductController {
     private final ProductService productService;
 
 
-    public ProductController(AuthService authService, PaisService paisService, ProductService productService) {
+    public ProductController(AuthService authService, ProductService productService) {
         this.authService = authService;
         this.productService = productService;
     }

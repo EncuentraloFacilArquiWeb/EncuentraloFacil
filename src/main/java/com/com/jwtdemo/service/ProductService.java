@@ -10,13 +10,10 @@ import java.util.List;
 
 @Service
 public class ProductService {
-
-    private final ProductService productService;
     private final ProductRepository productRepository;
 
     @Autowired
-    public ProductService(ProductRepository productRepository, ProductService productService) {
-        this.productService = productService;
+    public ProductService(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
 
