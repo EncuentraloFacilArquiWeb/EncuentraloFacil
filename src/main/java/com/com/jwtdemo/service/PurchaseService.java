@@ -1,8 +1,7 @@
 package com.com.jwtdemo.service;
-import com.com.jwtdemo.controller.PurchaseController;
-import com.com.jwtdemo.model.Product;
+
 import com.com.jwtdemo.model.Purchase;
-import com.com.jwtdemo.model.Seller;
+
 import com.com.jwtdemo.repository.PurchaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
