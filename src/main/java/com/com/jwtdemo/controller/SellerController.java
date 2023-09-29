@@ -57,8 +57,8 @@ public class SellerController {
     @DeleteMapping("seller/delete/{id}")
     public ResponseEntity<Seller> delete(@PathVariable Long id) throws Exception { return new ResponseEntity<>(sellerService.delete(id), HttpStatus.OK); }
 
-    @GetMapping("/auth/seller/list")
-    @PreAuthorize("hasRole('USER')") // Ajusta según tus necesidades de seguridad
+    @GetMapping("seller/list")
+    //@PreAuthorize("hasRole('USER') OR hasRole('ADMIN')") // Ajusta según tus necesidades de seguridad
     public ResponseEntity<List<SellerDTO>> getAllSellers() {
         List<SellerDTO> sellers = sellerService.getAllSellers();
         return new ResponseEntity<>(sellers, HttpStatus.OK);
