@@ -1,5 +1,6 @@
 package com.com.jwtdemo.controller;
 
+import com.com.jwtdemo.DTO.SellerDTO;
 import com.com.jwtdemo.model.*;
 import com.com.jwtdemo.service.AuthService;
 import com.com.jwtdemo.service.PaisService;
@@ -7,6 +8,7 @@ import com.com.jwtdemo.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -52,9 +54,15 @@ public class SellerController {
         return new ResponseEntity<>(sellerService.lista(), HttpStatus.OK);
     }
 
+    @DeleteMapping("seller/delete/{id}")
+    public ResponseEntity<Seller> delete(@PathVariable Long id) throws Exception { return new ResponseEntity<>(sellerService.delete(id), HttpStatus.OK); }
 
-
-
+    @GetMapping("/auth/seller/list")
+    @PreAuthorize("hasRole('USER')") // Ajusta según tus necesidades de seguridad
+    public ResponseEntity<List<SellerDTO>> getAllSellers() {
+        List<SellerDTO> sellers = sellerService.getAllSellers();
+        return new ResponseEntity<>(sellers, HttpStatus.OK);
+    }
 
 
 }
