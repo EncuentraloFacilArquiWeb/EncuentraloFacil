@@ -28,14 +28,14 @@ public class AuthService {
 
     }
 
-    public AuthResponse register(RegisterRequest request) {
+    public AuthResponse register(RegisterRequest request) {//AQUÍ SE REGISTRA EL ROL
         User user = User.builder()
                 .username(request.getUsername())
                 .password(passwordEncoder.encode( request.getPassword()))
                 .firstname(request.getFirstname())
                 .lastname(request.getLastname())
                 .country(request.getCountry())
-                .role(Role.USER)
+                .role(Role.ADMIN)
                 .build();
 
         userRepository.save(user);
