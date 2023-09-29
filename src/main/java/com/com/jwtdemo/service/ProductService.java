@@ -71,15 +71,15 @@ public class ProductService {
         sellerDTO.setStoreLocation(seller.getStoreLocation());
 
         //Mapeo del usuario (User) si es necesario
-       // if (seller.getUser() != null) {
-         //   sellerDTO.setUser(convertUserToDTO(seller.getUser()));
-        //}
+        if (seller.getUser() != null) {
+            sellerDTO.setUser(convertUserToDTO(seller.getUser()));
+        }
 
         // Otros campos que puedas tener en SellerDTO
 
         return sellerDTO;
     }
-    /*private UserDTO convertUserToDTO(User user) {
+    private UserDTO convertUserToDTO(User user) {
         UserDTO userDTO = new UserDTO();
         //userDTO.setId(user.getId());
         //userDTO.setUsername(user.getUsername());
@@ -92,8 +92,11 @@ public class ProductService {
         // Otros campos que puedas tener en UserDTO
 
         return userDTO;
-    }*/
-
+    }
+    public List<ProductDTO> getProductsByCategory(String category) {//buscar por categoría
+        List<Product> products = productRepository.findByCategory(category);
+        return products.stream().map(this::convertToDTO).collect(Collectors.toList());
+    }
 
 
 

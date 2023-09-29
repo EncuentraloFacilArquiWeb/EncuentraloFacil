@@ -50,4 +50,11 @@ public class ProductController {
         return new ResponseEntity<>(product, HttpStatus.OK);
     }
 
+    @GetMapping("/product/byCategory")
+    //@PreAuthorize("hasRole('USER')")
+    public ResponseEntity<List<ProductDTO>> getProductsByCategory(@RequestParam String category) {
+        List<ProductDTO> products = productService.getProductsByCategory(category);
+        return new ResponseEntity<>(products, HttpStatus.OK);
+    }
+
 }
