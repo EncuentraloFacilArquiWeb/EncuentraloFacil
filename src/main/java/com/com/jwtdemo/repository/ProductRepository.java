@@ -19,4 +19,6 @@ public interface ProductRepository extends JpaRepository<Product, Long>
     @Query(value = "select a FROM Product a WHERE a.expiration_date =:edate")
     List<Product> findbyExpiration_date(@Param("edate")Date edate);
 
+    List<Product> findByCategory(String category);
+
 }
