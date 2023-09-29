@@ -1,5 +1,6 @@
 package com.com.jwtdemo.repository;
 
+import com.com.jwtdemo.DTO.SellerDTO;
 import com.com.jwtdemo.model.Seller;
 import com.com.jwtdemo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -19,5 +20,9 @@ public interface SellerRepository extends JpaRepository<Seller, Long> {
 
     @Query(value = "SELECT * FROM public.seller ORDER BY id ASC", nativeQuery = true)
     List<Seller> listAllSeller();
+
+    @Query(value = "select a.id from seller a ORDER BY id ASC", nativeQuery = true)
+    SellerDTO nombreEidSeller();
+
 
 }
