@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="" />
+    <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/SellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Pais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/PaisDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/PaisRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/PaisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/PaisRepository.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,21 +143,12 @@
       <workItem from="1695857627000" duration="1316000" />
       <workItem from="1695934244563" duration="9886000" />
       <workItem from="1695996855485" duration="2811000" />
+      <workItem from="1696002775504" duration="747000" />
+      <workItem from="1696011114824" duration="6847000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/PaisService.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
