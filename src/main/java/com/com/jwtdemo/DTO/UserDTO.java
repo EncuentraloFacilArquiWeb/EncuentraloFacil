@@ -11,14 +11,14 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDTO {
-    Integer id;
-    String username;
+    //Integer id;
+    //String username;
     String lastname;
     String firstname;
     String country;
-    String password;
-    @Enumerated(EnumType.STRING)
-    Role role;
+    //String password;
+   // @Enumerated(EnumType.STRING)
+    //Role role;
 
 
 }

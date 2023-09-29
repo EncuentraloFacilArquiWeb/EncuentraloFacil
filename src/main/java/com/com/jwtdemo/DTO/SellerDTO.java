@@ -15,7 +15,7 @@ public class SellerDTO {
     private Integer store;
     private String storeDescription;
     private String storeLocation;
-    private User user;
+    private UserDTO user;
 
     // Constructor, getters y setters
 }

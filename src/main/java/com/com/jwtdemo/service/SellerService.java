@@ -2,7 +2,6 @@ package com.com.jwtdemo.service;
 
 import com.com.jwtdemo.DTO.SellerDTO;
 import com.com.jwtdemo.DTO.UserDTO;
-import com.com.jwtdemo.model.Pais;
 import com.com.jwtdemo.model.Seller;
 import com.com.jwtdemo.model.User;
 import com.com.jwtdemo.repository.SellerRepository;
@@ -50,13 +49,13 @@ public class SellerService {
 
     private UserDTO convertUserToDTO(User user) {
         UserDTO userDTO = new UserDTO();
-        userDTO.setId(user.getId());
-        userDTO.setUsername(user.getUsername());
-        userDTO.setPassword(user.getPassword());
+        //userDTO.setId(user.getId());
+        //userDTO.setUsername(user.getUsername());
+        //userDTO.setPassword(user.getPassword());
         userDTO.setFirstname(user.getFirstname());
         userDTO.setLastname(user.getLastname());
         userDTO.setCountry(user.getCountry());
-        userDTO.setRole(user.getRole());
+        //userDTO.setRole(user.getRole());
 
         // Otros campos que puedas tener en UserDTO
 
@@ -71,10 +70,10 @@ public class SellerService {
         sellerDTO.setStoreDescription(seller.getStoreDescription());
         sellerDTO.setStoreLocation(seller.getStoreLocation());
 
-        // Mapeo del usuario (User) si es necesario
-        //if (seller.getUser() != null) {
-         //   sellerDTO.setUser(convertUserToDTO(seller.getUser()));
-        //}
+        //Mapeo del usuario (User) si es necesario
+        if (seller.getUser() != null) {
+          sellerDTO.setUser(convertUserToDTO(seller.getUser()));
+        }
 
         // Otros campos que puedas tener en SellerDTO
 
