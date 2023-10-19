@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.com</groupId>
-	<artifactId>jwt-demo</artifactId>
+	<artifactId>EncuentraloFacil</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jwt-demo</name>
-	<description>jwt-demo</description>
+	<packaging>jar</packaging>
+	<name>EncuentraloFacil</name>
+	<description>EncuentraloFacil</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -92,6 +93,14 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.3.1</version> <!-- Asegúrate de tener la versión correcta -->
+				<configuration>
+					<encoding>UTF-8</encoding> <!-- Especifica la codificación aquí -->
 				</configuration>
 			</plugin>
 		</plugins>
