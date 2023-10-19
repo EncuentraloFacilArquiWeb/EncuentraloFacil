@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.com</groupId>
-	<artifactId>jwt-demo</artifactId>
+	<artifactId>EncuentraloFacil</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>jwt-demo</name>
-	<description>jwt-demo</description>
+	<name>EncuentraloFacil</name>
+	<description>EncuentraloFacil</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
