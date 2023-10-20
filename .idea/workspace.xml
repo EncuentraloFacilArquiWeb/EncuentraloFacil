@@ -5,71 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/DTO/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/DTO/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/DTO/SellerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/DTO/SellerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/DTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/DTO/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/JwtDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/JwtDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/OfferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/OfferController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/PurchaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/SellerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/ConsumerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/ConsumerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/OfferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/PurchaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/PurchaseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/SellerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/SellerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/OfferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/PurchaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/SellerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/service/SellerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/com/jwtdemo/JwtDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/com/EncuentraloFacil/JwtDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/DTO/SellerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/JwtDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/SellerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/filter/JwtAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse$AuthResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest$LoginRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Seller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/SellerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/SellerService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Sebastian",
-    "last_opened_file_path": "D:/CICLO 8/Arquitectura de Aplicaciones Web/JAVA/proy05-06-07-Persona-Atleta",
+    "last_opened_file_path": "D:/CICLO 8/Arquitectura de Aplicaciones Web/PC2/render-api-tadashi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,24 +69,11 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "5d8d0684bb8e3fda9d3bd57d0cb396b5",
+    "spring.configuration.checksum": "06ebfe79b0819b280de25bccb5944bef",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EncuentraloFacil" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EncuentraloFacil" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.JwtDemoApplication">
     <configuration name="JwtDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EncuentraloFacil" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.com.jwtdemo.JwtDemoApplication" />
@@ -215,6 +144,7 @@
       <workItem from="1697166972731" duration="24000" />
       <workItem from="1697575952345" duration="689000" />
       <workItem from="1697667570602" duration="8812000" />
+      <workItem from="1697841148803" duration="1426000" />
     </task>
     <servers />
   </component>
