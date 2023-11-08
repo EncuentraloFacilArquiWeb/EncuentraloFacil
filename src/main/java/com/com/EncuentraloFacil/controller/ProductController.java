@@ -34,7 +34,7 @@ public class ProductController {
     @DeleteMapping("/product/delete/{id}")
     public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
-    @GetMapping("/product/list")
+    @GetMapping("/auth/product/list")
     public ResponseEntity<List<ProductDTO>> getAllProduct() {
         List<ProductDTO> product = productService.getAllProduct();
         return new ResponseEntity<>(product, HttpStatus.OK);
