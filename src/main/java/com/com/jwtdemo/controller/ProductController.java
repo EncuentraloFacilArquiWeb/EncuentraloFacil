@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping
+@RequestMapping("api/product")
 public class ProductController {
     //@Autowired
     private final AuthService authService;
@@ -26,7 +26,12 @@ public class ProductController {
     }
 
 
-    @PostMapping("/auth/api/product")
+    //@PostMapping("/auth/api/product")
+    //public ResponseEntity<Product> inserta (@RequestBody Product product) {
+    //    return new ResponseEntity<>(productService.addProduct(product), HttpStatus.CREATED);
+    //}
+
+    @PostMapping("/addProduct")
     public ResponseEntity<Product> inserta (@RequestBody Product product) {
         return new ResponseEntity<>(productService.addProduct(product), HttpStatus.CREATED);
     }
@@ -36,16 +41,16 @@ public class ProductController {
         return new ResponseEntity<>(productService.lista(), HttpStatus.OK);
     }*/
 
-    @DeleteMapping("/product/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
-    @GetMapping("/product/list")
+    @GetMapping()
     public ResponseEntity<List<ProductDTO>> getAllProduct() {
         List<ProductDTO> product = productService.getAllProduct();
         return new ResponseEntity<>(product, HttpStatus.OK);
     }
 
-    @GetMapping("/product/byCategory")
+    @GetMapping("/byCategory")
     public ResponseEntity<List<ProductDTO>> getProductsByCategory(@RequestParam String category) {
         List<ProductDTO> products = productService.getProductsByCategory(category);
         return new ResponseEntity<>(products, HttpStatus.OK);
