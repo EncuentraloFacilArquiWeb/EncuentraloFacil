@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/DTO/SellerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/DTO/SellerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/JwtDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/JwtDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/SellerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/filter/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/filter/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse$AuthResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse$AuthResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/AuthResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest$LoginRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest$LoginRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Seller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/SellerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/SellerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/JwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/SellerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/SellerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +166,9 @@
       <workItem from="1697667570602" duration="6977000" />
       <workItem from="1699654386753" duration="1230000" />
       <workItem from="1699673537074" duration="733000" />
-      <workItem from="1699814335785" duration="9389000" />
+      <workItem from="1699814335785" duration="12380000" />
+      <workItem from="1699975355295" duration="11727000" />
+      <workItem from="1700083282205" duration="6076000" />
     </task>
     <servers />
   </component>
