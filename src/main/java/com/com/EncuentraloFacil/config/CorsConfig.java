@@ -19,6 +19,9 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins("http://localhost:4200")
                         .allowedMethods("*");
+                registry.addMapping("/auth/login")
+                        .allowedOrigins("https://backend-encuentralofacil1.onrender.com")
+                        .allowedMethods("*");
                 registry.addMapping("/api/**")
                         .allowedOrigins("https://backend-encuentralofacil1.onrender.com")
                         .allowedMethods("*");
