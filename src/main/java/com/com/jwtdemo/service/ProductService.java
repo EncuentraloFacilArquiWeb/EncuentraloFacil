@@ -87,7 +87,7 @@ public class ProductService {
         userDTO.setFirstname(user.getFirstname());
         userDTO.setLastname(user.getLastname());
         userDTO.setCountry(user.getCountry());
-        //userDTO.setRole(user.getRole());
+        userDTO.setRole(user.getRole());
 
         // Otros campos que puedas tener en UserDTO
 

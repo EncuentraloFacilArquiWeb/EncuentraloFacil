@@ -69,7 +69,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authRequest ->
                         authRequest
                                 .requestMatchers("/auth/**").permitAll()
-                                //.requestMatchers("/api/product").permitAll()
+                                .requestMatchers("/api/product").permitAll()
                                 .anyRequest().authenticated()
                 )
                 .sessionManagement(sessionManager->
