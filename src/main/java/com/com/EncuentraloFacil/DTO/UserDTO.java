@@ -14,8 +14,8 @@ public class UserDTO {
     String firstname;
     String country;
     //String password;
-   // @Enumerated(EnumType.STRING)
-    //Role role;
+    @Enumerated(EnumType.STRING)
+    Role role;
 
 
 }
