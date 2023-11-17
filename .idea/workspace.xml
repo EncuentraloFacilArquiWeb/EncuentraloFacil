@@ -6,6 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/DTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/DTO/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/DTO/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/DTO/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/OfferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/OfferController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/PurchaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/PurchaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/controller/SellerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/service/SellerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/com/EncuentraloFacil/service/SellerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/OfferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/PurchaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/controller/SellerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/model/Purchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/ConsumerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/OfferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/PurchaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/com/jwtdemo/service/SellerService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +94,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.JwtDemoApplication">
+  <component name="RunManager" selected="Spring Boot.JwtDemoApplication (3)">
     <configuration name="JwtDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EncuentraloFacil" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.com.jwtdemo.JwtDemoApplication" />

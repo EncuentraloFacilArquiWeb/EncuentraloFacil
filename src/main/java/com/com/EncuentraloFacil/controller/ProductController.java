@@ -1,9 +1,10 @@
-package com.com.jwtdemo.controller;
+package com.com.EncuentraloFacil.controller;
 
-import com.com.jwtdemo.DTO.ProductDTO;
-import com.com.jwtdemo.model.*;
-import com.com.jwtdemo.service.AuthService;
-import com.com.jwtdemo.service.ProductService;
+import com.com.EncuentraloFacil.DTO.ProductDTO;
+import com.com.EncuentraloFacil.model.Product;
+import com.com.EncuentraloFacil.service.AuthService;
+import com.com.EncuentraloFacil.service.ProductService;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
