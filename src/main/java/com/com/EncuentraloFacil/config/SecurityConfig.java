@@ -63,6 +63,10 @@ public class SecurityConfig {
 
                     configuration.setAllowedHeaders(Arrays.asList("*"));
 
+                    configuration.setAllowedOrigins(Arrays.asList("https://backend-encuentralofacil1.onrender.com"));
+                    configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
+                    configuration.setAllowedHeaders(Arrays.asList("*"));
+
                     return configuration;
 
                 }))
