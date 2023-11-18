@@ -67,6 +67,10 @@ public class SecurityConfig {
                     configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
                     configuration.setAllowedHeaders(Arrays.asList("*"));
 
+                    configuration.setAllowedOrigins(Arrays.asList("http://localhost:4200/"));
+                    configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
+                    configuration.setAllowedHeaders(Arrays.asList("*"));
+
                     return configuration;
 
                 }))
