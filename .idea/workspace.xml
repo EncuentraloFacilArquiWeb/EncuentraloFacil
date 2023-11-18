@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/EncuentraloFacil/controller/SellerController.java" afterDir="false" />
-    </list>
+    <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
