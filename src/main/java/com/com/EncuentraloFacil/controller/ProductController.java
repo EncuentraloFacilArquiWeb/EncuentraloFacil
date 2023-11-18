@@ -32,7 +32,7 @@ public class ProductController {
     //public ResponseEntity<Product> inserta (@RequestBody Product product) {
     //    return new ResponseEntity<>(productService.addProduct(product), HttpStatus.CREATED);
     //}
-    @CrossOrigin(origins = "http://localhost:4200")
+    ///@CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/addProduct")
     public ResponseEntity<Product> inserta (@RequestBody Product product) {
         return new ResponseEntity<>(productService.addProduct(product), HttpStatus.CREATED);
@@ -42,7 +42,7 @@ public class ProductController {
     public ResponseEntity<List<Product>> list () {
         return new ResponseEntity<>(productService.lista(), HttpStatus.OK);
     }*/
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
@@ -53,13 +53,13 @@ public class ProductController {
         List<ProductDTO> product = productService.getAllProduct();
         return new ResponseEntity<>(product, HttpStatus.OK);
     }*/
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @GetMapping()
     public List<ProductDTO> getAllProduct() {
         return productService.getAllProduct();
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/byCategory")
     public ResponseEntity<List<ProductDTO>> getProductsByCategory(@RequestParam String category) {
         List<ProductDTO> products = productService.getProductsByCategory(category);
