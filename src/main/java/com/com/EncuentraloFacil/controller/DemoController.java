@@ -18,6 +18,7 @@ public class DemoController {
     }
 
     // Generan un token
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/auth/login")
     public ResponseEntity<AuthResponse> login (@RequestBody LoginRequest request) {
         return ResponseEntity.ok(authService.login(request));
