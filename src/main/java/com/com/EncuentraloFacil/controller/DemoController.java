@@ -18,16 +18,16 @@ public class DemoController {
     }
 
     // Generan un token
-    /*@CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/auth/login")
     public ResponseEntity<AuthResponse> login (@RequestBody LoginRequest request) {
         return ResponseEntity.ok(authService.login(request));
-    }*/
-    @CrossOrigin(origins = "http://localhost:4200")
-    @PostMapping("/auth/login")
+    }
+    //@CrossOrigin(origins = "http://localhost:4200")
+    /*@PostMapping("/auth/login")
     public AuthResponse login(@RequestBody LoginRequest request) {
         return authService.login(request);
-    }
+    }*/
 
     @PostMapping("/auth/register")
     public ResponseEntity<AuthResponse> register (@RequestBody RegisterRequest request) {

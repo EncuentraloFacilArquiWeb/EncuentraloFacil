@@ -21,20 +21,20 @@ public class SellerController {
         this.authService = authService;
         this.sellerService = sellerService;
     }
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/auth/api/seller")
     public ResponseEntity<Seller> inserta (@RequestBody Seller seller) {
         return new ResponseEntity<>(sellerService.addSeller(seller), HttpStatus.CREATED);
     }
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/auth/api/seller/list")//PUEDEN SER LA MISMA RUTA PORQUE UNO ES POST Y EL OTRO ES GET
     public ResponseEntity<List<Seller>> lista() {
         return new ResponseEntity<>(sellerService.lista(), HttpStatus.OK);
     }
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @DeleteMapping("seller/delete/{id}")
     public ResponseEntity<Seller> delete(@PathVariable Long id) throws Exception { return new ResponseEntity<>(sellerService.delete(id), HttpStatus.OK); }
-    @CrossOrigin(origins = "http://localhost:4200")
+    //@CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("seller/list")
     public ResponseEntity<List<SellerDTO>> getAllSellers() {
         List<SellerDTO> sellers = sellerService.getAllSellers();
