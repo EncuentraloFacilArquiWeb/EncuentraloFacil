@@ -1,13 +1,14 @@
-package com.com.jwtdemo.service;
+package com.com.EncuentraloFacil.service;
 
-import com.com.jwtdemo.DTO.ProductDTO;
-import com.com.jwtdemo.DTO.SellerDTO;
-import com.com.jwtdemo.DTO.UserDTO;
-import com.com.jwtdemo.model.Seller;
-import com.com.jwtdemo.model.User;
-import com.com.jwtdemo.service.SellerService;
-import com.com.jwtdemo.model.Product;
-import com.com.jwtdemo.repository.ProductRepository;
+import com.com.EncuentraloFacil.DTO.ProductDTO;
+import com.com.EncuentraloFacil.DTO.SellerDTO;
+import com.com.EncuentraloFacil.DTO.UserDTO;
+import com.com.EncuentraloFacil.model.Product;
+import com.com.EncuentraloFacil.model.Seller;
+import com.com.EncuentraloFacil.model.User;
+import com.com.EncuentraloFacil.repository.ProductRepository;
+import com.com.EncuentraloFacil.service.SellerService;
+
 import jakarta.transaction.Transactional;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
