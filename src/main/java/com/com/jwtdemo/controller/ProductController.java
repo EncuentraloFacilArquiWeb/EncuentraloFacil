@@ -43,7 +43,8 @@ public class ProductController {
     }*/
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
+    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception {
+        return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
     @GetMapping()
     public ResponseEntity<List<ProductDTO>> getAllProduct() {

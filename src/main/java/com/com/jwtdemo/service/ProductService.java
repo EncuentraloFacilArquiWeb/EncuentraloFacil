@@ -8,6 +8,7 @@ import com.com.jwtdemo.model.User;
 import com.com.jwtdemo.service.SellerService;
 import com.com.jwtdemo.model.Product;
 import com.com.jwtdemo.repository.ProductRepository;
+import jakarta.transaction.Transactional;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,7 +32,7 @@ public class ProductService {
    /* public List<Product> lista() {
         return productRepository.findAll();
     }*/
-
+   @Transactional
     public Product elimina (Long id) throws Exception {
         // Pregunta si existe
         Product pro = productRepository.findById(id)
