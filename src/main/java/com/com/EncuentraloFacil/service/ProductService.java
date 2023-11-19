@@ -1,12 +1,14 @@
-package com.com.EncuentraloFacil.service;
+package com.com.jwtdemo.service;
 
-import com.com.EncuentraloFacil.DTO.ProductDTO;
-import com.com.EncuentraloFacil.DTO.SellerDTO;
-import com.com.EncuentraloFacil.DTO.UserDTO;
-import com.com.EncuentraloFacil.model.Seller;
-import com.com.EncuentraloFacil.model.User;
-import com.com.EncuentraloFacil.model.Product;
-import com.com.EncuentraloFacil.repository.ProductRepository;
+import com.com.jwtdemo.DTO.ProductDTO;
+import com.com.jwtdemo.DTO.SellerDTO;
+import com.com.jwtdemo.DTO.UserDTO;
+import com.com.jwtdemo.model.Seller;
+import com.com.jwtdemo.model.User;
+import com.com.jwtdemo.service.SellerService;
+import com.com.jwtdemo.model.Product;
+import com.com.jwtdemo.repository.ProductRepository;
+import jakarta.transaction.Transactional;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,7 +32,7 @@ public class ProductService {
    /* public List<Product> lista() {
         return productRepository.findAll();
     }*/
-
+   @Transactional
     public Product elimina (Long id) throws Exception {
         // Pregunta si existe
         Product pro = productRepository.findById(id)

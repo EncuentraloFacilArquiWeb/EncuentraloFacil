@@ -22,8 +22,8 @@ public class Product {
     private Date expiration_date;
 
 
-    @ManyToOne (fetch = FetchType.LAZY)//Muchos productos son de un vendedor
-    @JsonIgnoreProperties( {"hibernateLazyInitializar", "handler"})
+    @ManyToOne ()//Muchos productos son de un vendedor
+    //@JsonIgnoreProperties( {"hibernateLazyInitializar", "handler"})
     private Seller seller;
 
 }

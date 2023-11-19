@@ -44,7 +44,8 @@ public class ProductController {
     }*/
     //@CrossOrigin(origins = "http://localhost:4200")
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
+    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception {
+        return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
 
    //@CrossOrigin(origins = "http://localhost:4200")
