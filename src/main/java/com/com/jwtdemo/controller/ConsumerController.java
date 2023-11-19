@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @CrossOrigin()
 @RestController
-@RequestMapping
+@RequestMapping("api/consumer")
 public class ConsumerController {
     //@Autowired
     private final AuthService authService;
@@ -23,12 +23,12 @@ public class ConsumerController {
         this.authService = authService;
         this.consumerService = consumerService;
     }
-    @PostMapping("/auth/api/consumer")
+    @PostMapping("/addConsumer")
     public ResponseEntity<Consumer> inserta (@RequestBody Consumer consumer) {
         return new ResponseEntity<>(consumerService.addConsumer(consumer), HttpStatus.CREATED);
     }
 
-    @GetMapping("/auth/api/consumer")
+    @GetMapping()
     public ResponseEntity<List<Consumer>> lista () {
         return new ResponseEntity<>(consumerService.lista(), HttpStatus.OK);
     }
