@@ -46,6 +46,10 @@ public class ProductController {
     public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception {
         return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
 
+    @GetMapping("/getById/{id}")
+    public ResponseEntity<Product> getById(@PathVariable Long id) throws Exception {
+        return new ResponseEntity<>(productService .Obtener(id), HttpStatus.OK); }
+
     @GetMapping()
     public ResponseEntity<List<ProductDTO>> getAllProduct() {
         List<ProductDTO> product = productService.getAllProduct();

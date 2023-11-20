@@ -99,6 +99,16 @@ public class ProductService {
         return products.stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
+    @Transactional
+    public Product Obtener (Long id) throws Exception {
+        // Pregunta si existe
+        Product pro = productRepository.findById(id)
+                .orElseThrow(() -> new OpenApiResourceNotFoundException("Id de producto no existe: "+ id));
+
+        productRepository.getReferenceById(id);
+        return pro;
+    }
+
 
 
 
