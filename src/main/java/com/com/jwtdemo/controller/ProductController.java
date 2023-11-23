@@ -10,6 +10,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
 @CrossOrigin()
 @RestController
 @RequestMapping("api/product")
@@ -38,7 +39,12 @@ public class ProductController {
 
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception { return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
+    public ResponseEntity<Product> elimina(@PathVariable Long id) throws Exception {
+        return new ResponseEntity<>(productService .elimina(id), HttpStatus.OK); }
+
+    @GetMapping("/getById/{id}")
+    public ResponseEntity<Product> getById(@PathVariable Long id) throws Exception {
+        return new ResponseEntity<>(productService .Obtener(id), HttpStatus.OK); }
 
     @GetMapping()
     public ResponseEntity<List<ProductDTO>> getAllProduct() {

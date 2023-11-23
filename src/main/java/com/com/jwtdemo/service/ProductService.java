@@ -8,6 +8,7 @@ import com.com.jwtdemo.model.User;
 import com.com.jwtdemo.service.SellerService;
 import com.com.jwtdemo.model.Product;
 import com.com.jwtdemo.repository.ProductRepository;
+import jakarta.transaction.Transactional;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,7 +32,7 @@ public class ProductService {
    /* public List<Product> lista() {
         return productRepository.findAll();
     }*/
-
+   @Transactional
     public Product elimina (Long id) throws Exception {
         // Pregunta si existe
         Product pro = productRepository.findById(id)
@@ -87,7 +88,7 @@ public class ProductService {
         userDTO.setFirstname(user.getFirstname());
         userDTO.setLastname(user.getLastname());
         userDTO.setCountry(user.getCountry());
-        //userDTO.setRole(user.getRole());
+        userDTO.setRole(user.getRole());
 
         // Otros campos que puedas tener en UserDTO
 
@@ -96,6 +97,16 @@ public class ProductService {
     public List<ProductDTO> getProductsByCategory(String category) {//buscar por categoría
         List<Product> products = productRepository.findByCategory(category);
         return products.stream().map(this::convertToDTO).collect(Collectors.toList());
+    }
+
+    @Transactional
+    public Product Obtener (Long id) throws Exception {
+        // Pregunta si existe
+        Product pro = productRepository.findById(id)
+                .orElseThrow(() -> new OpenApiResourceNotFoundException("Id de producto no existe: "+ id));
+
+        productRepository.getReferenceById(id);
+        return pro;
     }
 
 

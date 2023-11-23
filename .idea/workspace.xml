@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a18e14aa-e75d-4b26-bf8d-bf504cb01642" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,46 +38,40 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2V8KUrobXpHn4zIfkKC4yrcH2xQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CICLO 8/Arquitectura de Aplicaciones Web/EJERCICIOS PROFE/SEGURIDAD-JWT-PROFE/auth&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5d8d0684bb8e3fda9d3bd57d0cb396b5&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Sebastian",
+    "last_opened_file_path": "D:/CICLO 8/Arquitectura de Aplicaciones Web/EJERCICIOS PROFE/S14-AUTO/S14-AUTO-BACK",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "06ebfe79b0819b280de25bccb5944bef",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.JwtDemoApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EncuentraloFacil" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EncuentraloFacil" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.JwtDemoApplication (1)">
     <configuration name="JwtDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EncuentraloFacil" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.com.jwtdemo.JwtDemoApplication" />
@@ -125,21 +123,40 @@
       <workItem from="1695847894052" duration="2149000" />
       <workItem from="1695851150097" duration="403000" />
       <workItem from="1695854936053" duration="244000" />
+      <workItem from="1695857627000" duration="1316000" />
+      <workItem from="1695934244563" duration="9886000" />
+      <workItem from="1695996855485" duration="2811000" />
+      <workItem from="1696002775504" duration="747000" />
+      <workItem from="1696011114824" duration="6847000" />
+      <workItem from="1696025231530" duration="2351000" />
+      <workItem from="1696268254477" duration="25000" />
+      <workItem from="1696274085930" duration="3900000" />
+      <workItem from="1696363112486" duration="5886000" />
+      <workItem from="1696370604503" duration="689000" />
+      <workItem from="1696565952687" duration="75000" />
+      <workItem from="1696588135094" duration="7000" />
+      <workItem from="1696988501813" duration="1000" />
+      <workItem from="1697014939952" duration="3000" />
+      <workItem from="1697062386755" duration="1259000" />
+      <workItem from="1697089199379" duration="1000" />
+      <workItem from="1697166972731" duration="24000" />
+      <workItem from="1697575952345" duration="689000" />
+      <workItem from="1697667570602" duration="6977000" />
+      <workItem from="1699654386753" duration="1230000" />
+      <workItem from="1699673537074" duration="733000" />
+      <workItem from="1699814335785" duration="12380000" />
+      <workItem from="1699975355295" duration="11727000" />
+      <workItem from="1700083282205" duration="6076000" />
+      <workItem from="1700103960377" duration="3404000" />
+      <workItem from="1700168350595" duration="9917000" />
+      <workItem from="1700193713525" duration="600000" />
+      <workItem from="1700255920205" duration="2132000" />
+      <workItem from="1700276596074" duration="1853000" />
+      <workItem from="1700425483494" duration="7190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/com/jwtdemo/service/PaisService.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
